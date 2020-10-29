@@ -17,7 +17,6 @@ public class ProductCustomAdapter extends RecyclerView.Adapter<ProductCustomAdap
 
     private ArrayList<Product> productArrayList;
     private LayoutInflater layoutInflater;
-    private Context context;
 
     public ProductCustomAdapter(ArrayList<Product> productArrayList, Context context) {
         this.productArrayList = productArrayList;
